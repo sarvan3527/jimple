@@ -2,7 +2,7 @@ pipeline {
     agent any 
     environment {
         //once you sign up for Docker hub, use that user_id here
-        registry = "sarvan3527/mypythonapp1"
+        registry = "sarvan3527/mypythonapp2"
         //- update your credentials ID after creating credentials for connecting to Docker Hub
         registryCredential = '9ce2e490-4fcc-4dd1-a7ff-7e57a56148e7'
         dockerImage = ''
