@@ -28,8 +28,8 @@ pipeline{
     }
     environment{
 
-        registry = "<dockerhub-username>/<repo-name>"
-        registryCredential = '<dockerhub-credential-name>'
+        registry = "sarvan3527/my-app"
+        registryCredential = '9ce2e490-4fcc-4dd1-a7ff-7e57a56148e7'
     }
 
     stages{
